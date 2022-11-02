@@ -11,72 +11,72 @@ I'm highly interested with spiritual life which made me a "positive energy gener
 ### 🧰 Languages and Tools
 <table>
   <tr>
-    <td>
-      <img align="left" alt="Flutter" width="30px" style="padding-right:10px;" src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"/>
+    <td align="center">
+      <img alt="Flutter" width="30px" src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"/>
     </td>
-    <td>
-      <img align="left" alt="Dart" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/dart.svg"/>
+    <td align="center">
+      <img alt="Dart" width="30px" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/dart.svg"/>
     </td>
-    <td>
-      <img align="left" alt="Java" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
+    <td align="center">
+      <img alt="Java" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
     </td>
-    <td>
-      <img align="left" alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
+    <td align="center">
+      <img alt="Spring" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />
     </td>
-    <td>
-      <img align="left" alt=".Net" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/dotnet.svg" />
+    <td align="center">
+      <img alt=".Net" width="30px" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/dotnet.svg" />
     </td>
-    <td>
-      <img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+    <td align="center">
+      <img alt="Git" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
     </td>
-    <td>
-      <img align="left" alt="Database" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/database.svg" />
+    <td align="center">
+      <img alt="Database" width="30px" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/database.svg" />
     </td>
-    <td>
-      <img align="left" alt="Firebase" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/firebase.svg" />
+    <td align="center">
+      <img alt="Firebase" width="30px" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/firebase.svg" />
     </td>
-    <td>
-      <img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+    <td align="center">
+      <img alt="HTML" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
     </td>
-    <td>
-      <img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+    <td align="center">
+      <img alt="CSS" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
     </td>
-    <td>
-      <img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+    <td align="center">
+      <img alt="JavaScript" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
     </td>
   </tr>
   <tr>
-    <td>
+    <td align="center">
       Flutter
     </td>
-    <td>
+    <td align="center">
       Dart
     </td>
-    <td>
+    <td align="center">
       Java
     </td>
-    <td>
+    <td align="center">
       Spring boot
     </td>
-    <td>
+    <td align="center">
       .Net
     </td>
-    <td>
+    <td align="center">
       Git
     </td>
-    <td>
+    <td align="center">
       Database
     </td>
-    <td>
+    <td align="center">
       Firebase
     </td>
-    <td>
+    <td align="center">
       HTML
     </td>
-    <td>
+    <td align="center">
       CSS
     </td>
-    <td>
+    <td align="center">
       JavaScript
     </td>
   </tr>
