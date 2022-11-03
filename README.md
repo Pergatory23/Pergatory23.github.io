@@ -82,6 +82,18 @@ I'm highly interested with spiritual life which made me a "positive energy gener
   </tr>
 </table>
   
+### 📊 Stats
+
+![Pergatory23's GitHub stats](https://github-readme-stats.vercel.app/api?username=Pergatory23&show_icons=true&theme=gruvbox)
+
+<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=Pergatory23&theme=gruvbox&border_radius=4.5) -->
+
+#
+
+<details>
+ <summary><h3>👨‍💻 Rafik's Coding Journey</h3></summary>
+   I started my coding journey with the foundation of a Microsoft Tech Club within our university with a passion to learn everything I could about this programming world. This self teaching journey made a lot of impact on who I'm now, finding everything encountred through the way just a challenge that will help me learn and develop my skills. After finishing my study, I was lost at first trying different paths, to finally land as a full-stack Flutter developer. Moreover, working in some startups on the way was very benificial for me by tacling all the aspect of software creation, from the idea to the analysis and UI design, till the development and testing. It was really fulfilling participating on all the application creation phases. Of course along the way, I was getting deeper and deeper into the spiritual word and the self development journey which shaped my caracter to be who I'm today. That positie calm spirit, who send love and happiness to everyone encountred on the way. A new interest of modern agriculture is coming to life this last months of 2022 after almost a year of searching and learning all about aquaponics. Stay tuned for the result 🐠.
+
 <br />
 
 #
