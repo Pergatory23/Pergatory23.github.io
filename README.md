@@ -15,7 +15,7 @@ I'm highly interested with spiritual life which made me a "positive energy gener
       <img alt="Flutter" width="30px" src="https://cdn.worldvectorlogo.com/logos/flutter-logo.svg"/>
     </td>
     <td align="center">
-      <img alt="Dart" width="30px" src="https://cdn.jsdelivr.net/npm/devicons@1.8.0/!SVG/dart.svg"/>
+      <img alt="Dart" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Dart-logo-icon.svg/2048px-Dart-logo-icon.svg.png"/>
     </td>
     <td align="center">
       <img alt="Java" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"/>
