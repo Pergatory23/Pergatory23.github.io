@@ -8,6 +8,7 @@ I'm a full-stack Flutter developer with nearly 5 years of professional experienc
 In addition to my professional experience, I have a deep interest in spiritual life and personal growth. This has helped me to cultivate a positive and enthusiastic approach to my work, as well as a deep appreciation for the interconnectedness of all things. I believe that technology can be a powerful tool for creating positive change in the world, and I'm excited to work with like-minded individuals who share this vision.
 
 Overall, my goal is to use my skills and experience to develop innovative and impactful solutions that make a difference in people's lives. Whether it's through building apps that improve productivity and efficiency, or working on projects that promote personal growth and well-being, I'm always looking for opportunities to make a positive impact.
+
 ---
 
 ### 🧰 Languages and Tools
@@ -96,7 +97,13 @@ Overall, my goal is to use my skills and experience to develop innovative and im
 
 <details open="true">
  <summary><h3>👨‍💻 Rafik's Coding Journey</h3></summary>
-   I started my coding journey with the foundation of a Microsoft Tech Club within our university with a passion to learn everything I could about this programming world. This self teaching journey made a lot of impact on who I'm now, finding everything encountred through the way just a challenge that will help me learn and develop my skills. After finishing my study, I was lost at first trying different paths, to finally land as a full-stack Flutter developer. Moreover, working in some startups on the way was very benificial for me by tacling all the aspect of software creation, from the idea to the analysis and UI design, till the development and testing. It was really fulfilling participating on all the application creation phases. Of course along the way, I was getting deeper and deeper into the spiritual world and the self development journey which shaped my caracter to be who I'm today. That positie calm spirit, who send love and happiness to everyone encountred on the way. A new interest of modern agriculture is coming to life this last months of 2022 after almost a year of searching and learning all about aquaponics. Stay tuned for the result 🐠.
+   My coding journey began during my time at university, where I founded a Microsoft Tech Club with the best friends ever, in order to learn everything I could about the programming world. I was eager to challenge myself and develop my skills, and this self-taught approach proved to be the perfect fit for me.
+
+After completing my studies, I explored a number of different paths before ultimately settling on a career as a full-stack Flutter developer. Along the way, I had the opportunity to work with startups and tackle all aspects of software creation, from ideation and UI design to development and testing. Being involved in every phase of application creation was incredibly fulfilling, and helped me to develop a deep understanding of the software development process.
+
+As I continued on my coding journey, I also became deeply interested in spirituality and personal growth. This journey has helped to shape my character and develop a positive, calm spirit that radiates love and happiness to everyone I encounter.
+
+Recently, I've also become fascinated with modern agriculture and have spent the past year learning all about aquaponics. I'm excited to see where this new interest takes me and am looking forward to sharing the results with others 🐠.
 
 <br />
 
