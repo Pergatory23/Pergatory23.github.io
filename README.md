@@ -98,11 +98,8 @@ Overall, my goal is to use my skills and experience to develop innovative and im
 <details open="true">
  <summary><h3>👨‍💻 Rafik's Coding Journey</h3></summary>
    My coding journey began during my time at university, where I founded a Microsoft Tech Club with the best friends ever, in order to learn everything I could about the programming world. I was eager to challenge myself and develop my skills, and this self-taught approach proved to be the perfect fit for me.
-
 After completing my studies, I explored a number of different paths before ultimately settling on a career as a full-stack Flutter developer. Along the way, I had the opportunity to work with startups and tackle all aspects of software creation, from ideation and UI design to development and testing. Being involved in every phase of application creation was incredibly fulfilling, and helped me to develop a deep understanding of the software development process.
-
 As I continued on my coding journey, I also became deeply interested in spirituality and personal growth. This journey has helped to shape my character and develop a positive, calm spirit that radiates love and happiness to everyone I encounter.
-
 Recently, I've also become fascinated with modern agriculture and have spent the past year learning all about aquaponics. I'm excited to see where this new interest takes me and am looking forward to sharing the results with others 🐠.
 
 <br />
