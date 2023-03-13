@@ -3,9 +3,11 @@
 
 **`Flutter developer`**
 
-I'm currently a Flutter full-stack developer. I made it here through an IT enginnering degree following with almost 4 years of professional experience, to settle these last 2 years with Flutter technology. 
-I'm highly interested with spiritual life which made me a "positive energy generator" and more connected to all the life aspects around us. I would love working and helping in some life changing ideas, with positive and serious people out there.
+I'm a full-stack Flutter developer with nearly 5 years of professional experience in the tech industry. I earned my degree in IT engineering and have since honed my skills in mobile app development, with a particular focus on Flutter technology.
 
+In addition to my professional experience, I have a deep interest in spiritual life and personal growth. This has helped me to cultivate a positive and enthusiastic approach to my work, as well as a deep appreciation for the interconnectedness of all things. I believe that technology can be a powerful tool for creating positive change in the world, and I'm excited to work with like-minded individuals who share this vision.
+
+Overall, my goal is to use my skills and experience to develop innovative and impactful solutions that make a difference in people's lives. Whether it's through building apps that improve productivity and efficiency, or working on projects that promote personal growth and well-being, I'm always looking for opportunities to make a positive impact.
 ---
 
 ### 🧰 Languages and Tools
