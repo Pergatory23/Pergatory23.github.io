@@ -191,7 +191,7 @@ $(function () {
     },
   });
 
-  bar.animate(0.9);
+  bar.animate(0.8);
 
   var bar = new ProgressBar.Line(lineprog2, {
     strokeWidth: 1.72,
@@ -208,7 +208,7 @@ $(function () {
     },
   });
 
-  bar.animate(0.95);
+  bar.animate(0.7);
 
   var bar = new ProgressBar.Line(lineprog3, {
     strokeWidth: 1.72,
@@ -225,7 +225,7 @@ $(function () {
     },
   });
 
-  bar.animate(0.75);
+  bar.animate(0.6);
 
   var bar = new ProgressBar.Line(lineprog4, {
     strokeWidth: 1.72,
@@ -242,7 +242,7 @@ $(function () {
     },
   });
 
-  bar.animate(0.65);
+  bar.animate(0.75);
 
   var bar = new ProgressBar.Line(lineprog5, {
     strokeWidth: 1.72,
@@ -259,7 +259,7 @@ $(function () {
     },
   });
 
-  bar.animate(0.85);
+  bar.animate(0.65);
 
   // Contact form
   $(".art-input").keyup(function () {
@@ -314,7 +314,7 @@ $(function () {
 
   // slider testimonials
   var swiper = new Swiper(".art-testimonial-slider", {
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     speed: 1400,
     autoplay: false,
@@ -328,13 +328,19 @@ $(function () {
       prevEl: ".art-testi-swiper-prev",
     },
     breakpoints: {
-      1500: {
+      4000: {
         slidesPerView: 2,
       },
-      1200: {
+      3200: {
         slidesPerView: 2,
       },
-      992: {
+      2400: {
+        slidesPerView: 2,
+      },
+      1600: {
+        slidesPerView: 2,
+      },
+      700: {
         slidesPerView: 1,
       },
     },
@@ -547,35 +553,35 @@ $(function () {
     });
 
     // slider testimonials
-    var swiper = new Swiper(".art-testimonial-slider", {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      speed: 1400,
-      autoplay: false,
-      autoplaySpeed: 5000,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".art-testi-swiper-next",
-        prevEl: ".art-testi-swiper-prev",
-      },
-      breakpoints: {
-        1500: {
-          slidesPerView: 2,
-        },
-        1200: {
-          slidesPerView: 2,
-        },
-        992: {
-          slidesPerView: 2,
-        },
-        768: {
-          slidesPerView: 1,
-        },
-      },
-    });
+    // var swiper = new Swiper(".art-testimonial-slider", {
+    //   slidesPerView: 3,
+    //   spaceBetween: 30,
+    //   speed: 1400,
+    //   autoplay: false,
+    //   autoplaySpeed: 5000,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+    //   navigation: {
+    //     nextEl: ".art-testi-swiper-next",
+    //     prevEl: ".art-testi-swiper-prev",
+    //   },
+    //   breakpoints: {
+    //     2400: {
+    //       slidesPerView: 2,
+    //     },
+    //     1800: {
+    //       slidesPerView: 2,
+    //     },
+    //     1200: {
+    //       slidesPerView: 2,
+    //     },
+    //     768: {
+    //       slidesPerView: 1,
+    //     },
+    //   },
+    // });
 
     // slider works
     var swiper = new Swiper(".art-works-slider", {
@@ -671,5 +677,48 @@ $(function () {
         ).removeClass("art-active , art-disabled");
       }
     });
+  });
+});
+
+/********************************** */
+
+// Add ellipsis to the collapsed content
+window.addEventListener("DOMContentLoaded", function () {
+  var contentElements = document.querySelectorAll(".content");
+
+  contentElements.forEach(function (content) {
+    var fullContent = content.textContent.trim();
+    var maxCharCount = 500; // Define the maximum number of characters before adding ellipsis
+    var collapsedText = "";
+
+    // Check if truncation is needed
+    if (fullContent.length > maxCharCount) {
+      var truncatedText = fullContent.substring(0, maxCharCount);
+      var lastWordIndex = truncatedText.lastIndexOf(" ");
+      collapsedText = truncatedText.substring(0, lastWordIndex) + "...";
+    } else {
+      collapsedText = fullContent;
+    }
+
+    content.textContent = collapsedText;
+  });
+});
+
+// Toggle content visibility
+document.querySelectorAll(".read-more").forEach(function (button) {
+  button.addEventListener("click", function (e) {
+    e.preventDefault();
+    var content = this.previousElementSibling;
+    if (content.classList.contains("overflow-hidden")) {
+      content.textContent = content.dataset.fullContent;
+      content.classList.remove("overflow-hidden");
+      content.classList.add("show-content");
+      this.textContent = "Read Less";
+    } else {
+      content.textContent = content.dataset.collapsedContent;
+      content.classList.remove("show-content");
+      content.classList.add("overflow-hidden");
+      this.textContent = "Read More";
+    }
   });
 });

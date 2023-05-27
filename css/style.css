@@ -2198,6 +2198,8 @@ content
 
 /* line 262, ../scss/_content.scss */
 .art-testimonial {
+  min-width: 34rem;
+  height: 26rem;
   position: relative;
   background-size: cover;
   padding: 30px;
@@ -3422,4 +3424,17 @@ html.is-animating .fade-left {
     transform: scale(1);
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+.overflow-hidden {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.read-more {
+  float: right;
+}
+
+.show-content {
+  max-height: none !important;
+  overflow: visible !important;
+}
