@@ -681,44 +681,109 @@ $(function () {
 });
 
 /********************************** */
+var servicesParagraphs = [];
 
+// on reinit
+document.addEventListener("swup:contentReplaced", function () {
+  collapseServicesContent();
+});
 // Add ellipsis to the collapsed content
 window.addEventListener("DOMContentLoaded", function () {
-  var contentElements = document.querySelectorAll(".content");
-
-  contentElements.forEach(function (content) {
-    var fullContent = content.textContent.trim();
-    var maxCharCount = 500; // Define the maximum number of characters before adding ellipsis
-    var collapsedText = "";
-
-    // Check if truncation is needed
-    if (fullContent.length > maxCharCount) {
-      var truncatedText = fullContent.substring(0, maxCharCount);
-      var lastWordIndex = truncatedText.lastIndexOf(" ");
-      collapsedText = truncatedText.substring(0, lastWordIndex) + "...";
-    } else {
-      collapsedText = fullContent;
-    }
-
-    content.textContent = collapsedText;
+  document.querySelectorAll(".content").forEach(function (content) {
+    servicesParagraphs.push(content.textContent);
   });
+  collapseServicesContent();
 });
 
-// Toggle content visibility
+// Toggle services content visibility
 document.querySelectorAll(".read-more").forEach(function (button) {
   button.addEventListener("click", function (e) {
     e.preventDefault();
     var content = this.previousElementSibling;
     if (content.classList.contains("overflow-hidden")) {
-      content.textContent = content.dataset.fullContent;
       content.classList.remove("overflow-hidden");
       content.classList.add("show-content");
       this.textContent = "Read Less";
     } else {
-      content.textContent = content.dataset.collapsedContent;
       content.classList.remove("show-content");
       content.classList.add("overflow-hidden");
       this.textContent = "Read More";
     }
+    collapseServicesContent();
   });
 });
+
+function collapseServicesContent() {
+  var contentElements = document.querySelectorAll(".content");
+
+  contentElements.forEach(function (content) {
+    var fullContent = content.textContent.trim();
+    var maxCharCount = 400; // Define the maximum number of characters before adding ellipsis
+    var collapsedText = "";
+    var divIndex = Array.prototype.indexOf.call(contentElements, content);
+    // Manage truncation regarding class names
+    if (content.classList.contains("show-content")) {
+      content.textContent = servicesParagraphs[divIndex];
+    } else {
+      // Check if truncation is needed
+      if (fullContent.length > maxCharCount) {
+        var truncatedText = fullContent.substring(0, maxCharCount);
+        var lastWordIndex = truncatedText.lastIndexOf(" ");
+        collapsedText = truncatedText.substring(0, lastWordIndex) + "...";
+      } else {
+        collapsedText = fullContent;
+      }
+      content.textContent = collapsedText;
+    }
+  });
+}
+
+function sendEmail() {
+  /* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> */
+  // $(document).ready(function () {
+  // $("#contactForm").submit(function (event) {
+  // event.preventDefault(); // Prevent form submission
+
+  // Get form values
+  var name = $("#name").val();
+  var email = $("#email").val();
+  var message = $("#message").val();
+  var subject = $("#subject").val();
+
+  // Check if any field is empty
+  if (name === "" || email === "" || message === "" || subject === "") {
+    // Display an error message or perform any necessary action
+    console.log("Please fill in all fields");
+    return; // Return early to prevent further execution
+  }
+
+  // Construct the email body
+  var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+  // Compose the mailto URL
+  var mailtoUrl =
+    "mailto:rafik.gharbi@icloud.com?subject=" +
+    encodeURIComponent(subject) +
+    "&body=" +
+    encodeURIComponent(body);
+
+  console.log(mailtoUrl);
+  // Open the default email client with the pre-filled email
+  window.location.href = mailtoUrl;
+
+  // // Send the email using AJAX
+  // $.ajax({
+  //   type: 'POST',
+  //   url: 'send_email.php', // Replace with the server-side script URL for sending the email
+  //   data: { subject: subject, body: body },
+  //   success: function(response) {
+  //     console.log('Email sent successfully');
+  //     // Handle success, e.g., show a success message to the user
+  //   },
+  //   error: function(xhr, status, error) {
+  //     console.error('Error sending email:', error);
+  //     // Handle error, e.g., show an error message to the user
+  //   }
+  // });
+  // });
+  // });
+}
