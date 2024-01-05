@@ -99894,12 +99894,10 @@ p.a="assets/Rafik_Gharbi_Resume.pdf"
 return A.C5(o,o,o,o,A.fx(B.aT,A.b([A.a0v(A.aR3(s,new A.Ik(p,o),B.cA),new A.F(q.a*0.75,r.b*0.8)),A.kj(10,A.aWY(B.SO,new A.aqh()),o,o,o,10,o,o)],t.p),B.Q,B.aP,o),B.am,B.rM,!0,o,o,o)},
 $S:192}
 A.aqh.prototype={
-$0(){var s=0,r=A.C(t.H),q
+$0(){var s=0,r=A.C(t.H)
 var $async$$0=A.D(function(a,b){if(a===1)return A.z(b,r)
-while(true)switch(s){case 0:q=window.location.host
-q.toString
-s=2
-return A.J(A.afi(A.hF(q+"/assets/Rafik_Gharbi_resume.pdf",0,null),B.tB),$async$$0)
+while(true)switch(s){case 0:s=2
+return A.J(A.afi(A.hF("assets/Rafik_Gharbi_resume.pdf",0,null),B.tB),$async$$0)
 case 2:return A.A(null,r)}})
 return A.B($async$$0,r)},
 $S:27}
