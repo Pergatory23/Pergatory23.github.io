@@ -99897,7 +99897,7 @@ A.aqg.prototype={
 $0(){var s=0,r=A.C(t.H),q
 var $async$$0=A.D(function(a,b){if(a===1)return A.z(b,r)
 while(true)switch(s){case 0:q=document.createElement("a")
-q.href="Rafik_Gharbi_resume.pdf"
+q.href="assets/Rafik_Gharbi_resume.pdf"
 q.download="assets/Rafik_Gharbi_resume.pdf"
 q.click()
 return A.A(null,r)}})
